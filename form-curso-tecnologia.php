@@ -15,6 +15,8 @@
         <input type="number" name="carga"> <br>
         digite total de aulas do curso de tecnologia <br>
         <input type="number" name="totaulas"> <br>
+        digite o preço do curso de tecnologia <br>
+        <input type="text" name="preco"> <br>
         digite a imagem do curso de tecnologia <br>
         <input type="text" name="imagem"> <br>
         digite a playlist do curso de tecnologia <br>
