@@ -17,11 +17,10 @@
             echo 'error';
         } else {
             while ($reg=$busca->fetch_object()){
-                echo "<img src='$reg->imagem' width='200'> <h2>$reg->nome</h2> <h4>$reg->preço</h4> total de aulas: $reg->totalaulas <br> carga: $reg->carga <hr> <p>$reg->descrição</p>";
+                echo "<img src='$reg->imagem' width='200'> <h2>$reg->nome</h2> <h4>$reg->preço</h4> total de aulas: $reg->totalaulas <br> carga: $reg->carga <hr> <p>$reg->descrição</p> <button style='background-color: blue;'><a href='comprar-curso-tecnologia.php?i=$reg->id' style='text-decoration: none; color: white;'>Comprar</a></button>";
             }
         }
     }
     ?>
-    <button style="background-color: blue;"><a href="comprar-curso-tecnologia.php" style="text-decoration: none; color: white;">Comprar</a></button>
 </body>
 </html>
